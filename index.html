@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KULDEEP | Full-Stack Developer &amp; DevOps Engineer</title>
+    <meta name="description" content="KULDEEP — Full-Stack Developer & DevOps Engineer with 7+ years building scalable web apps. Angular, React, Node.js, Python, AWS. Available for projects.">
+    
+    <!-- Favicon (lightweight SVG) -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.svg">
+    
+    <!-- Open Graph / Social (use full URL for og:image when deployed, e.g. https://yoursite.com/og-image.png) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="KULDEEP | Full-Stack Developer & DevOps Engineer">
+    <meta property="og:description" content="7+ years building scalable web applications. Angular, React, Node.js, Python, DevOps. Available for projects.">
+    <meta property="og:image" content="og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="KULDEEP Portfolio">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="KULDEEP | Full-Stack Developer & DevOps Engineer">
+    <meta name="twitter:description" content="7+ years building scalable web applications. Angular, React, Node.js, Python, DevOps.">
+    <meta name="twitter:image" content="og-image.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-text">
+                <span>K</span>
+                <span>U</span>
+                <span>L</span>
+                <span>D</span>
+                <span>E</span>
+                <span>E</span>
+                <span>P</span>
+            </div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-box">
+                    <span class="logo-text">K</span>
+                </div>
+                <span class="logo-name">KULDEEP</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active"><span>01.</span> Home</a></li>
+                <li><a href="#about" class="nav-link"><span>02.</span> About</a></li>
+                <li><a href="#skills" class="nav-link"><span>03.</span> Skills</a></li>
+                <li><a href="#experience" class="nav-link"><span>04.</span> Experience</a></li>
+                <li><a href="#projects" class="nav-link"><span>05.</span> Projects</a></li>
+                <li><a href="#contact" class="nav-link"><span>06.</span> Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://github.com/developer-kuldeep" target="_blank" rel="noopener noreferrer" class="nav-social">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kuldeep-engineer/" target="_blank" rel="noopener noreferrer" class="nav-social">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline btn-nav">Hire Me</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay (tap outside to close) -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay" aria-hidden="true"></div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose" type="button" aria-label="Close menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+            <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-social">
+            <a href="https://github.com/developer-kuldeep" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kuldeep-engineer/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-layout">
+                <div class="hero-visual">
+                    <div class="hero-profile-photo">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQEiPxZjuV52fg/profile-displayphoto-crop_800_800/B56Zv7Qe.oKcAI-/0/1769446962033?e=1773273600&v=beta&t=08YjoOAPzBiz0yi05_SxpPT88hZCc69Sd6Q_nsfMsgs" alt="KULDEEP - Full-Stack Developer" width="200" height="200" loading="eager">
+                    </div>
+                    <p class="hero-working-badge">
+                        <i class="fas fa-briefcase"></i>
+                        Currently working at <strong>Meander Software</strong>
+                    </p>
+                </div>
+                <div class="hero-content">
+                    <div class="hero-intro">
+                        <p class="hero-name">Hi, I'm <span class="gradient-text">KULDEEP</span></p>
+                    </div>
+                    <h1 class="hero-title">
+                    <span class="title-line">
+                        <span class="word" data-text="Full-Stack">Full-Stack</span>
+                    </span>
+                    <span class="title-line">
+                        <span class="word gradient-text" data-text="Developer">Developer</span>
+                        <span class="word">&</span>
+                    </span>
+                    <span class="title-line">
+                        <span class="word" data-text="DevOps">DevOps</span>
+                        <span class="word gradient-text" data-text="Engineer">Engineer</span>
+                        <span class="sparkle">✦</span>
+                    </span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Building <span class="gradient-text">scalable</span> web applications
+                </p>
+                
+                <p class="hero-description">
+                    7+ years crafting scalable web applications, robust APIs, and cloud infrastructure. 
+                    Specializing in Angular, React, Node.js, Python, and DevOps automation.
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary btn-glow">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-glass">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                    <a href="resume.pdf" download class="btn btn-outline">
+                        <span>Download Resume</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="7">0</span>
+                            <span class="stat-plus">+</span>
+                        </div>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="50">0</span>
+                            <span class="stat-plus">+</span>
+                        </div>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="30">0</span>
+                            <span class="stat-plus">+</span>
+                        </div>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-galaxy-bg">
+            <div class="galaxy-bg"></div>
+            <div class="galaxy-stars"></div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll Down</span>
+        </div>
+        
+        <div class="hero-marquee">
+            <div class="marquee-content">
+                <span>ANGULAR</span>
+                <span class="dot">●</span>
+                <span>REACT</span>
+                <span class="dot">●</span>
+                <span>NEXT.JS</span>
+                <span class="dot">●</span>
+                <span>NODE.JS</span>
+                <span class="dot">●</span>
+                <span>PYTHON</span>
+                <span class="dot">●</span>
+                <span>MONGODB</span>
+                <span class="dot">●</span>
+                <span>POSTGRESQL</span>
+                <span class="dot">●</span>
+                <span>GRAPHQL</span>
+                <span class="dot">●</span>
+                <span>DOCKER</span>
+                <span class="dot">●</span>
+                <span>AWS</span>
+                <span class="dot">●</span>
+                <span>ANGULAR</span>
+                <span class="dot">●</span>
+                <span>REACT</span>
+                <span class="dot">●</span>
+                <span>NEXT.JS</span>
+                <span class="dot">●</span>
+                <span>NODE.JS</span>
+                <span class="dot">●</span>
+                <span>PYTHON</span>
+                <span class="dot">●</span>
+                <span>MONGODB</span>
+                <span class="dot">●</span>
+                <span>POSTGRESQL</span>
+                <span class="dot">●</span>
+                <span>GRAPHQL</span>
+                <span class="dot">●</span>
+                <span>DOCKER</span>
+                <span class="dot">●</span>
+                <span>AWS</span>
+                <span class="dot">●</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">
+                    <span class="title-accent"></span>
+                    About <span class="gradient-text">Me</span>
+                </h2>
+                <p class="section-subtitle">Turning complex problems into elegant solutions</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-photo-block">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQEiPxZjuV52fg/profile-displayphoto-crop_800_800/B56Zv7Qe.oKcAI-/0/1769446962033?e=1773273600&v=beta&t=08YjoOAPzBiz0yi05_SxpPT88hZCc69Sd6Q_nsfMsgs" alt="KULDEEP" width="160" height="160" loading="lazy" class="about-photo">
+                        <span class="about-photo-badge"><i class="fas fa-building"></i> Meander Software</span>
+                    </div>
+                    <div class="about-text">
+                        <p class="lead">
+                            I'm <span class="highlight">KULDEEP</span>, a passionate Full-Stack Developer and DevOps Engineer from <span class="highlight">India</span> with over 7 years of hands-on experience.
+                        </p>
+                        <p>
+                            My journey in software development has been driven by a simple philosophy: <em>"Automate everything possible. Build scalable systems. Deploy confidently."</em>
+                        </p>
+                        <p>
+                            <span class="highlight">Meander Software Private Limited</span> is where I started building for production and grew into full-stack development. There I architect and deliver robust web applications—from frontends to backends and cloud infrastructure.
+                        </p>
+                    </div>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Fast Development</h4>
+                                <p>AI-powered workflow with Cursor & Copilot</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Secure Code</h4>
+                                <p>JWT, OAuth, validations & best practices</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Scalable Systems</h4>
+                                <p>Cloud-native, containerized deployments</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <i class="fas fa-sync"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>CI/CD Pipelines</h4>
+                                <p>Automated testing & deployment flows</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <div class="editor-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="editor-title">kuldeep.config.ts</span>
+                            <div class="editor-actions">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="editor-body">
+                            <div class="line-numbers">
+                                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+                                <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                                <span>11</span><span>12</span><span>13</span><span>14</span><span>15</span>
+                            </div>
+                            <pre class="code-content"><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"Kuldeep"</span>,
+  <span class="property">role</span>: <span class="string">"Full-Stack Developer"</span>,
+  <span class="property">experience</span>: <span class="string">"7+ years"</span>,
+  <span class="property">location</span>: <span class="string">"India"</span>,
+  <span class="property">company</span>: <span class="string">"Meander Software"</span>,
+  <span class="property">skills</span>: [
+    <span class="string">"Angular"</span>, <span class="string">"React"</span>, <span class="string">"Node.js"</span>,
+    <span class="string">"Python"</span>, <span class="string">"DevOps"</span>, <span class="string">"Cloud"</span>
+  ],
+  <span class="property">mindset</span>: <span class="string">"Build. Ship. Repeat."</span>,
+  <span class="property">status</span>: <span class="string">"Coding..."</span> <span class="blink">▊</span>
+};
+
+<span class="keyword">export default</span> developer;</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">
+                    <span class="title-accent"></span>
+                    Tech <span class="gradient-text">Stack</span>
+                </h2>
+                <p class="section-subtitle">Technologies I work with daily</p>
+            </div>
+            
+            <div class="skills-wrapper">
+                <!-- Frontend -->
+                <div class="skill-category" data-category="frontend">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-angular"></i></div>
+                            <span class="skill-name">Angular</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <span class="skill-name">React</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <span class="skill-name">Next.js</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <span class="skill-name">TypeScript</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span class="skill-name">HTML5/CSS3</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-sass"></i></div>
+                            <span class="skill-name">SASS/SCSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category" data-category="backend">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <span class="skill-name">Node.js</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <span class="skill-name">GraphQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-plug"></i></div>
+                            <span class="skill-name">REST APIs</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-broadcast-tower"></i></div>
+                            <span class="skill-name">Socket.io</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-cube"></i></div>
+                            <span class="skill-name">Strapi CMS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="skill-category" data-category="database">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database & Storage</h3>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span class="skill-name">PostgreSQL</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+                            <span class="skill-name">Redis</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                            <span class="skill-name">Pinecone</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-vector-square"></i></div>
+                            <span class="skill-name">FAISS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps -->
+                <div class="skill-category" data-category="devops">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>DevOps & Cloud</h3>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-dharmachakra"></i></div>
+                            <span class="skill-name">Kubernetes</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                            <span class="skill-name">AWS</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <span class="skill-name">EC2</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span class="skill-name">S3</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                            <span class="skill-name">CI/CD</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-github"></i></div>
+                            <span class="skill-name">GitHub Actions</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                            <span class="skill-name">Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Server & Hosting -->
+                <div class="skill-category" data-category="server">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-hdd"></i>
+                        </div>
+                        <h3>Server & Hosting</h3>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <span class="skill-name">Nginx</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-feather"></i></div>
+                            <span class="skill-name">Apache</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                            <span class="skill-name">VPS</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-lock"></i></div>
+                            <span class="skill-name">SSL/TLS</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-globe"></i></div>
+                            <span class="skill-name">DNS</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-lambda"></i></div>
+                            <span class="skill-name">AWS Lambda</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Integrations -->
+                <div class="skill-category" data-category="integrations">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3>Integrations & Payments</h3>
+                    </div>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-stripe"></i></div>
+                            <span class="skill-name">Stripe</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-rupee-sign"></i></div>
+                            <span class="skill-name">Razorpay</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-key"></i></div>
+                            <span class="skill-name">JWT/OAuth</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-check-double"></i></div>
+                            <span class="skill-name">Validations</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fas fa-envelope"></i></div>
+                            <span class="skill-name">Mailchimp</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fab fa-google"></i></div>
+                            <span class="skill-name">Google APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">
+                    <span class="title-accent"></span>
+                    Work <span class="gradient-text">Experience</span>
+                </h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            
+            <div class="experience-timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item active">
+                    <div class="timeline-marker">
+                        <div class="marker-pulse"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="card-badge">Current</div>
+                            <span class="card-date">Present</span>
+                        </div>
+                        <h3 class="card-title">Full-Stack Developer & DevOps Engineer</h3>
+                        <p class="card-company">
+                            <i class="fas fa-building"></i>
+                            Meander Software Private Limited
+                        </p>
+                        <p class="card-journey">Where I began my development journey</p>
+                        <ul class="card-highlights">
+                            <li>Lead development of enterprise web applications using Angular & React</li>
+                            <li>Architect scalable backend systems with Node.js, Python & GraphQL</li>
+                            <li>Implement CI/CD pipelines and containerized deployments</li>
+                            <li>Manage cloud infrastructure on AWS with Docker & Kubernetes</li>
+                            <li>Integrate payment gateways (Stripe, Razorpay) with secure validation</li>
+                        </ul>
+                        <div class="card-tech">
+                            <span>Angular</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <span class="card-date">7+ Years</span>
+                        </div>
+                        <h3 class="card-title">Senior Full-Stack Developer</h3>
+                        <p class="card-company">
+                            <i class="fas fa-briefcase"></i>
+                            Previous Experience
+                        </p>
+                        <ul class="card-highlights">
+                            <li>Developed 50+ web applications across various industries</li>
+                            <li>Mastered all Angular versions from AngularJS to latest</li>
+                            <li>Built real-time applications with Socket.io & WebSockets</li>
+                            <li>Implemented REST & GraphQL APIs with proper authentication</li>
+                            <li>Configured VPS servers with Nginx, Apache & SSL certificates</li>
+                        </ul>
+                        <div class="card-tech">
+                            <span>Python</span>
+                            <span>MongoDB</span>
+                            <span>PostgreSQL</span>
+                            <span>Nginx</span>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">
+                    <span class="title-accent"></span>
+                    Featured <span class="gradient-text">Projects</span>
+                </h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            
+            <div class="projects-grid">
+                <a href="https://wondrfly.com" target="_blank" rel="noopener noreferrer" class="project-card featured project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <span class="project-link"><i class="fas fa-external-link-alt"></i> Open</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Featured Project</span>
+                        <h3 class="project-title">Wondrfly</h3>
+                        <p class="project-description">
+                            A comprehensive kids activities marketplace offering countless programs - classes, camps, daycare, and party activities. 
+                            Parents discover local & online activities including arts & crafts, music lessons, swimming, theater, and academic classes. 
+                            Also serves as a provider marketplace with premium listing options.
+                        </p>
+                        <div class="project-tech">
+                            <span>Angular 8-17</span>
+                            <span>Python</span>
+                            <span>Node.js</span>
+                            <span>NestJS</span>
+                            <span>MongoDB</span>
+                            <span>REST APIs</span>
+                        </div>
+                        <span class="project-visit">View live site <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                
+                <a href="https://vertpro.com" target="_blank" rel="noopener noreferrer" class="project-card project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <span class="project-link"><i class="fas fa-external-link-alt"></i> Open</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">SaaS Platform</span>
+                        <h3 class="project-title">VertPro</h3>
+                        <p class="project-description">
+                            Enterprise SaaS platform trusted by 8,000+ companies. Helps building owners comply with 80+ energy benchmarking laws nationwide. 
+                            Benchmarked 8,458+ buildings covering 483M sq.ft.
+                        </p>
+                        <div class="project-tech">
+                            <span>Angular 2+</span>
+                            <span>TypeScript</span>
+                            <span>REST APIs</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <span class="project-visit">View live site <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                
+                <a href="https://asknow.meander.one" target="_blank" rel="noopener noreferrer" class="project-card project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <span class="project-link"><i class="fas fa-external-link-alt"></i> Open</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">AI Platform</span>
+                        <h3 class="project-title">AskNow AI</h3>
+                        <p class="project-description">
+                            Intelligent AI-powered Q&A platform with conversational interface. Built with React frontend and high-performance FastAPI Python backend for instant AI responses.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>FastAPI</span>
+                            <span>Python</span>
+                            <span>OpenAI</span>
+                        </div>
+                        <span class="project-visit">View live site <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                
+                <a href="https://www.dimedroppers.com" target="_blank" rel="noopener noreferrer" class="project-card project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <span class="project-link"><i class="fas fa-external-link-alt"></i> Open</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">AI / ML</span>
+                        <h3 class="project-title">DimeDroppers</h3>
+                        <p class="project-description">
+                            AI/ML-powered analytics platform with intelligent predictions. FastAPI backend with machine learning models for data-driven insights and automation.
+                        </p>
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>Python</span>
+                            <span>AI/ML</span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <span class="project-visit">View live site <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                
+                <a href="https://meander.software" target="_blank" rel="noopener noreferrer" class="project-card project-card-link">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <span class="project-link"><i class="fas fa-external-link-alt"></i> Open</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-label">Company Website</span>
+                        <h3 class="project-title">Meander Software</h3>
+                        <p class="project-description">
+                            App development company website (India & USA). Showcases digital assets, AI-powered projects, mobile apps, and digital marketing services. Founded 2014.
+                        </p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>JavaScript</span>
+                            <span>SCSS</span>
+                            <span>SEO</span>
+                        </div>
+                        <span class="project-visit">View live site <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="more-projects">
+                <div class="more-projects-card">
+                    <div class="more-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <div class="more-content">
+                        <h4>+ Many More Internal Products & Projects</h4>
+                        <p>Content management systems (Strapi CMS for Wondrfly), mobile apps on Google Play (Meander Training, Potio), 
+                           enterprise REST & GraphQL APIs, microservices architecture, and various client projects across industries.</p>
+                        <div class="project-tech">
+                            <span>Strapi CMS</span>
+                            <span>Mobile Apps</span>
+                            <span>GraphQL</span>
+                            <span>Microservices</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta">
+                <a href="#contact" class="btn btn-primary btn-large btn-glow">
+                    <span>Interested? Let's Talk</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="https://github.com/developer-kuldeep" target="_blank" rel="noopener noreferrer" class="btn btn-glass btn-large">
+                    <span>View My Profile</span>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">06</span>
+                <h2 class="section-title">
+                    <span class="title-accent"></span>
+                    Get In <span class="gradient-text">Touch</span>
+                </h2>
+                <p class="section-subtitle">Let's build something amazing together</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email Me</h4>
+                            <a href="mailto:kuldeephimachal83@gmail.com">kuldeephimachal83@gmail.com</a>
+                            <a href="mailto:kuldeepkuldeep@zohomail.in">kuldeepkuldeep@zohomail.in</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/kuldeep-engineer/" target="_blank" rel="noopener noreferrer">Connect with me</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/developer-kuldeep" target="_blank" rel="noopener noreferrer">View my code</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Website</h4>
+                            <a href="https://techcrazeonline.com" target="_blank">techcrazeonline.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    
+                    <a href="resume.pdf" download class="info-card info-card-download">
+                        <div class="info-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Resume</h4>
+                            <span>Download my resume</span>
+                        </div>
+                        <i class="fas fa-download info-download-icon"></i>
+                    </a>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Your Name</label>
+                                <span class="focus-border"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Your Email</label>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="focus-border"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-full btn-glow">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-box">
+                            <span class="logo-text">K</span>
+                        </div>
+                        <span class="logo-name">KULDEEP</span>
+                    </a>
+                    <p class="footer-tagline">Full-Stack Developer & DevOps Engineer</p>
+                    <p class="footer-philosophy">"Automate everything. Build scalable systems. Deploy confidently."</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <a href="https://github.com/developer-kuldeep" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/kuldeep-engineer/" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i> LinkedIn
+                        </a>
+                        <a href="mailto:kuldeephimachal83@gmail.com">
+                            <i class="fas fa-envelope"></i> Gmail
+                        </a>
+                        <a href="mailto:kuldeepkuldeep@zohomail.in">
+                            <i class="fas fa-envelope"></i> Zoho Mail
+                        </a>
+                        <a href="https://techcrazeonline.com" target="_blank">
+                            <i class="fas fa-globe"></i> Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kuldeep. All rights reserved.</p>
+                <p>Built with <span class="heart">♥</span> and code</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

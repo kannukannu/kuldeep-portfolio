@@ -1,0 +1,12 @@
+# Vercel (when using vercel link locally)
+.vercel
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
