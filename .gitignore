@@ -6,7 +6,8 @@
 Thumbs.db
 
 # Editor
-.vscode/
 .idea/
 *.swp
 *.swo
+config.bat
+node_modules
